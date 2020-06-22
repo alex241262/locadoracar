@@ -1,4 +1,4 @@
-<?php //require_once "autenticacao.php";?>
+<?php require_once "autenticacao.php";//verifica se esta autenticado?>
 <html>
 <head>
     <title>Veículos - Lista</title>

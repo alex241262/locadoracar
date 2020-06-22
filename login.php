@@ -14,7 +14,7 @@
             if ($row = mysqli_fetch_assoc($resul)){
                 if($row["senha"] == $senha){
                     //login realizado com sucesso,salvamos a sessão
-                    $_SESSION["login"] == $login;
+                    $_SESSION["login"] = $login;
                     //redirecionamos para a pagina que lista os veiculos cadastrados
                     header("location:veiculoLista.php");
                 }
